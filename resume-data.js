@@ -17,6 +17,28 @@ const RESUME_DATA = {
     { label: "Processing Latency Reduced", value: "40%", suffix: "" },
     { label: "FinOps Cost Savings", value: "35%", suffix: "" }
   ],
+  advisory: [
+    {
+      title: "Technical & Architecture Consultation",
+      target: "Organizations & Leadership",
+      areas: [
+        "Multi-Cloud Lakehouse Strategy (AWS & Azure Fabric/Databricks)",
+        "Enterprise GenAI, Agentic Workflows (LangGraph, MCP) & AI Governance",
+        "Cloud FinOps & Infrastructure Cost Optimization (30-40% reduction)",
+        "24/7 SRE, High Availability & Mission-Critical Data Operations"
+      ]
+    },
+    {
+      title: "Career Coaching & Leadership Mentorship",
+      target: "Engineers & Tech Leads",
+      areas: [
+        "Transitioning from Senior Engineer to Engineering Manager",
+        "Staff+ & Principal Architect Career Track Development",
+        "Data Engineering System Design & Leadership Mock Interviews",
+        "Executive Resume Positioning & Profile Branding for FAANG/Tier-1"
+      ]
+    }
+  ],
   experience: [
     {
       company: "GlobalFoundries",

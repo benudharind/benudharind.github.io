@@ -1279,6 +1279,102 @@ strong, b {
   flex-shrink: 0;
 }
 
+/* --- Advisory & Career Coaching Section --- */
+.advisory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.advisory-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 36px;
+}
+
+.advisory-card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.advisory-icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-cyan-glow);
+  color: var(--accent-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.45rem;
+  flex-shrink: 0;
+}
+
+.advisory-icon-box.coaching-icon {
+  background: rgba(139, 92, 246, 0.15);
+  color: var(--accent-purple);
+}
+
+.advisory-type-badge {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--accent-cyan);
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.advisory-type-badge.coaching-badge {
+  color: var(--accent-purple);
+}
+
+.advisory-card-title {
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.advisory-card-desc {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+.advisory-offerings {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.offering-item {
+  display: flex;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.offering-item i {
+  color: var(--accent-emerald);
+  margin-top: 4px;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+.offering-item strong {
+  color: var(--text-primary);
+}
+
+.advisory-cta {
+  margin-top: auto;
+}
+
 /* --- Contact Section --- */
 .contact-card {
   display: grid;

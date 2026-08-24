@@ -45,6 +45,8 @@ function initTypewriter() {
 
   const roles = [
     'Senior Data & AI Engineering Leader',
+    'Technical Advisory & Architecture Consultant',
+    'Executive & 1:1 Career Leadership Coach',
     'Multi-Cloud Lakehouse Architect (AWS & Azure)',
     'Enterprise Agentic GenAI & MCP Specialist',
     'Ex-Microsoft & Ex-Amazon Engineering Manager',
