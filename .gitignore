@@ -1,0 +1,5 @@
+# Private documents & binary source files
+*.docx
+*.pdf
+.DS_Store
+Thumbs.db
